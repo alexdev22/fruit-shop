@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+main {
+  height: 80vh;
+}
+.header-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+  height: 10vh;
+}
+
+.header-container li {
+  list-style: none;
+}
+
+.logo {
+  width: 150px;
+}
+
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon::after {
+  content: "2";
+  position: absolute;
+  inset: 0;
+  width: 15px;
+  height: 15px;
+  background-color: green;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1250px;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.shop-grid img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.fruit {
+  margin: 1rem;
+}
+
+.fruit-screner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.fruit-info-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.fruit-info-container button {
+  background-color: green;
+  padding: 0.35rem;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  background-color: green;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.fruit-screener-img {
+  width: 400px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+.fruit-screener-h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.fruit-screener-section {
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.fruit-screener-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.fruit-screener-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.fruit-screener-info span {
+  font-size: 1rem;
+  margin: 0.25rem;
+}
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  background-color: rgb(207, 207, 207);
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin: 0.25rem 0.5rem 0.25rem 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+
+.counter-number {
+  font-size: 2rem;
+}
+
+.add-to-cart-btn {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
