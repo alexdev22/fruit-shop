@@ -60,5 +60,35 @@ export const fruits = [
     unitsPerKg: 10,
     category: 'Extra',
     variety: 'Pink'
+  },
+  {
+    id: 7,
+    name: 'avocado',
+    img: '/images/avocados.jpg',
+    price: '1,99',
+    calibre: 5,
+    unitsPerKg: 10,
+    category: 'Extra',
+    variety: 'Pink'
+  },
+  {
+    id: 8,
+    name: 'avocado',
+    img: '/images/avocados.jpg',
+    price: '1,99',
+    calibre: 5,
+    unitsPerKg: 10,
+    category: 'Extra',
+    variety: 'Pink'
+  },
+  {
+    id: 9,
+    name: 'avocado',
+    img: '/images/avocados.jpg',
+    price: '1,99',
+    calibre: 5,
+    unitsPerKg: 10,
+    category: 'Extra',
+    variety: 'Pink'
   }
 ]
